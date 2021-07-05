@@ -29,7 +29,6 @@ header .img img {
 	border-color: aqua;
 	margin-top: 2em;
 	margin-left: 22em;
-	box-shadow: 5em;
 }
 .hello {
 	margin-top: 1em;
@@ -40,6 +39,11 @@ header .img img {
 	font-size: 20px;
 	text-align: center;
 }
+.profile a {
+	color: blue;
+	font-style: italic;
+}
+/*=======================================================*/
 .projects {
 	background-color: azure;
 }
@@ -55,6 +59,10 @@ header .img img {
 	font-size: 20px;
 	margin-top: 3em;
 }
+.listed a {
+	color: blue;
+	font-style: italic;
+}
 .logos {
 	margin-top: 3em;
 	display: flex;
@@ -62,4 +70,22 @@ header .img img {
 	margin-left: 8em;
 	margin-right: 8em;
 	font-size: 20px;
+}
+.logos h4 {
+	font-style: italic;
+}
+.logos .image3 span {
+	color: rgb(33, 19, 241);
+}
+/*======================================================*/
+footer {
+	text-align: center;
+	background-color: aqua;
+}
+.social {
+	margin-top: 3em;
+}
+.social2 a img {
+	margin-top: 1em;
+	border-radius: 10em;
 }
