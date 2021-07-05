@@ -23,3 +23,43 @@ header .img img {
 	border-radius: 10em;
 }
 /*=======================================================*/
+.container {
+	width: 60%;
+	border-style: solid;
+	border-color: aqua;
+	margin-top: 2em;
+	margin-left: 22em;
+	box-shadow: 5em;
+}
+.hello {
+	margin-top: 1em;
+	font-size: 25px;
+	text-align: center;
+}
+.profile {
+	font-size: 20px;
+	text-align: center;
+}
+.projects {
+	background-color: azure;
+}
+.heading {
+	text-align: center;
+	font-size: 25px;
+}
+.listed ul {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 8em;
+	margin-right: 8em;
+	font-size: 20px;
+	margin-top: 3em;
+}
+.logos {
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 8em;
+	margin-right: 8em;
+	font-size: 20px;
+}
