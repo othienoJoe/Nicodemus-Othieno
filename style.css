@@ -55,7 +55,7 @@ header .img img {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 8em;
-	margin-right: 8em;
+	margin-right: 10em;
 	font-size: 20px;
 	margin-top: 3em;
 }
@@ -64,38 +64,78 @@ header .img img {
 	font-style: italic;
 }
 .logos {
-	margin-top: 3em;
+	margin-top: 2em;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin-left: 5em;
-	margin-right: 5em;
+	margin-right: 2em;
 	font-size: 20px;
+}
+.logos .image2 {
+	inline-size: 20em;
+}
+.logos .image2 p {
+	margin-top: 3em;
 }
 .logos h4 {
 	font-style: italic;
 }
-.logos .image2 {
-	inline-size: 10em;
-}
 .logos .image3 span {
 	color: rgb(33, 19, 241);
+}
+.logos .image3 .p {
+	font-style: italic;
+	font-weight: 600;
+}
+.logos .image3 ul {
+	font-size: 25px;
 }
 .logos .image1 p {
         margin-top: 3em;
 }
 /*======================================================*/
 footer {
-	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
 	background-color: aqua;
 }
 .social {
-	margin-top: 3em;
+	margin-top: 1em;
+}
+.social a {
+        color: rgb(33, 19, 241);
+	font-size: 1.5em;
 }
 .social2 a img {
-	margin-top: 1em;
+	margin-top: 1.5em;
 	border-radius: 10em;
 }
+.social2 a {
+	color: rgb(33, 19, 241);
+	font-size: 1.5em;
+}
 .social3 img {
-	margin-top: 1em;
+	margin-top: 1.5em;
 	border-radius: 10em;
+}
+.social3 a {
+	color: rgb(33, 19, 241);
+	font-size: 1.5em;
+}
+/*====================================================*/
+#footer1 {
+	font-size: 2em;
+}
+#form {
+	display: flex;
+}
+#form label {
+	font-size: 1.5em;
+}
+#form .btn {
+	font-weight: 700;
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	margin-top: 5.2em;
 }
