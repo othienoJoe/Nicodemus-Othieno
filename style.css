@@ -123,6 +123,9 @@ footer {
 	font-size: 1.5em;
 }
 /*====================================================*/
+.email {
+	margin-bottom: 25px;
+}
 #footer1 {
 	font-size: 2em;
 }
@@ -133,9 +136,16 @@ footer {
 	font-size: 1.5em;
 }
 #form .btn {
+	color: rgb(33, 19, 241);
 	font-weight: 700;
 	font-size: 20px;
 	width: 150px;
 	height: 50px;
 	margin-top: 5.2em;
+}
+/*===================================================*/
+.copyright {
+	text-align: center;
+	background-color: aquamarine;
+	height: 2em;
 }
