@@ -67,15 +67,21 @@ header .img img {
 	margin-top: 3em;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 8em;
-	margin-right: 8em;
+	margin-left: 5em;
+	margin-right: 5em;
 	font-size: 20px;
 }
 .logos h4 {
 	font-style: italic;
 }
+.logos .image2 {
+	inline-size: 10em;
+}
 .logos .image3 span {
 	color: rgb(33, 19, 241);
+}
+.logos .image1 p {
+        margin-top: 3em;
 }
 /*======================================================*/
 footer {
