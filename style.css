@@ -2,10 +2,11 @@ header {
 	background-color: aqua;
 	justify-content: space-between;
         display: flex;
-	height: 20em;
+	height: 15em;
+	overflow: scroll;
 }
 header .about {
-	padding-top: 5em;
+        padding-top: 5em;
 	justify-content: 3em space-between;
 	margin-left: 2em;
 }
@@ -14,12 +15,15 @@ header .name {
 	border: 10px;
 	border-color: aliceblue;
 	border-style: solid;
+}
+header .name h1 {
+	margin-top: 1em;
 	font-style: oblique;
 	font-size: 3em;
 }
 header .img img {
 	margin-right: 1em;
-	margin-top: 1em;
+	margin-top: 5px;
 	border-radius: 10em;
 }
 /*=======================================================*/
@@ -100,14 +104,14 @@ footer {
 	background-color: aqua;
 }
 .social {
-	margin-top: 1em;
+	margin-top: 1.5em;
 }
 .social a {
         color: rgb(33, 19, 241);
 	font-size: 1.5em;
 }
 .social2 a img {
-	margin-top: 1.5em;
+	margin-top: 5px;
 	border-radius: 10em;
 }
 .social2 a {
@@ -115,12 +119,20 @@ footer {
 	font-size: 1.5em;
 }
 .social3 img {
-	margin-top: 1.5em;
+	margin-top: 5px;
 	border-radius: 10em;
 }
 .social3 a {
 	color: rgb(33, 19, 241);
 	font-size: 1.5em;
+}
+.social4 a {
+	color: rgb(33, 19, 241);
+	font-size: 1.5em;
+}
+.social4 img {
+	margin-top: 5px;
+	border-radius: 10em;
 }
 /*====================================================*/
 .email {
@@ -148,4 +160,9 @@ footer {
 	text-align: center;
 	background-color: aquamarine;
 	height: 2em;
+}
+.copyright span {
+	color: red;
+	font-weight: 1000;
+	font-size: 20px;
 }

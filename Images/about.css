@@ -1,0 +1,176 @@
+header {
+	background-color: aqua;
+	justify-content: space-between;
+        display: flex;
+	height: 15em;
+	overflow: scroll;
+}
+header .about {
+	padding-top: 5em;
+	justify-content: space-evenly;
+	margin-left: 2em;
+}
+header .name {
+	height: 100%;
+	background-color: aquamarine;
+	border: 10px;
+	border-color: aliceblue;
+	border-style: solid;
+}
+header .name h1 {
+	margin-top: 1.3em;
+	font-size: 3em;
+	font-style: oblique;
+}
+header .img img {
+	margin-right: 1em;
+	margin-top: 5px;
+	border-radius: 10em;
+}
+/*===================================================*/
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2em;
+}
+.education {
+	width: 700px;
+	border: 2px solid;
+	font-size: 20px;
+	box-shadow: 3px 0px 10px blue;
+	background-color: aquamarine;
+}
+.education h2 {
+	text-align: center;
+	font-size: 2em;
+}
+.education h4 {
+	font-size: 1.5em;
+}
+.education span {
+	font-weight: 600;
+	font-style: italic;
+}
+.education a {
+	color: blue;
+	font-style: italic;
+}
+.course h4 {
+	color: blue;
+	margin-left: 4em;
+	font-size: 2em;
+}
+.education p {
+	margin-left: 2em;
+	font-size: 2em;
+}
+/*=======================================================*/
+.job {
+	width: 750px;
+        border: 2px solid;
+	font-size: 20px;
+	box-shadow: 3px 0px 10px blue;
+	background-color: aquamarine;
+}
+.job #job {
+	text-align: center;
+	font-size: 1.5em;
+}
+.job a {
+	color: blue;
+	font-style: italic;
+}
+.job h4 {
+	margin-left: 3em;
+	font-size: 1.5em;
+}
+.job p {
+	font-weight: 550;
+}
+/*===================================================*/
+.reason {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2em;
+}
+.why {
+	width: 850px;
+	font-size: 20px;
+	box-shadow: 3px 0px 10px blue;
+}
+.reason h2 {
+	text-align: center;
+	font-size: 1.5em;
+}
+.why p {
+	font-weight: 600;
+        
+}
+/*===================================================*/
+.skills {
+	width: 850px;
+	font-size: 20px;
+	box-shadow: 3px 0px 10px blue;
+}
+.skills a {
+	color: blue;
+	font-style: italic;
+}
+.skills ol {
+	font-style: italic;
+	font-size: 1.2em;
+}
+.skills h4 {
+	font-weight: bold;
+	margin-left: 3em;
+	font-size: 1.5em;
+}
+/*=================================================*/
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: aqua;
+}
+.social {
+	margin-top: 1.5em;
+}
+.social a {
+        color: rgb(33, 19, 241);
+	font-size: 1.5em;
+}
+.social2 a img {
+	margin-top: 5px;
+	border-radius: 10em;
+}
+.social2 a {
+	color: rgb(33, 19, 241);
+	font-size: 1.5em;
+}
+.social3 img {
+	margin-top: 5px;
+	border-radius: 10em;
+}
+.social3 a {
+	color: rgb(33, 19, 241);
+	font-size: 1.5em;
+}
+.social4 a {
+	color: rgb(33, 19, 241);
+	font-size: 1.5em;
+}
+.social4 img {
+	margin-top: 5px;
+	border-radius: 10em;
+}
+/*=================================================*/
+.copyright {
+	text-align: center;
+	background-color: aquamarine;
+	height: 2em;
+}
+.copyright span {
+	color: red;
+	font-weight: 1000;
+	font-size: 20px;
+}
