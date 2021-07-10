@@ -105,14 +105,24 @@
                         <h4>Feedback Or Enquiry</h4>
                 </div>
                 <div id="form">
-                        <form>
+			<div class="alert">Message submitted</div>
+                        <form method="post" action="#" onsubmit="return checkforblank()">
+				<fieldset>
                                 <label for="comment">Leave a Comment:</label><br>
-                                <textarea name="comments" id="comment" cols="50" rows="08"></textarea>
+				<span>Email : </span><input id="email" required type="email"><br>
+				<span>Name : </span><input id="name" required type="text"><br>
+                                <textarea name="comment" id="comment" cols="50" rows="08">Comment here!</textarea>
+				<br>
+				<button id="btn" type="submit" onclick="sendMessage()">Submit</button>
+				</fieldset>
                         </form>
-			<button class="btn">SUBMIT</button>
+			<!-- The core Firebase JS SDK is always required and must be listed first -->
+                        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+                        <script src="app.js"></script>
                 </div>
                    
 	</div>
+
 </footer>
 <div class="copyright">
 	<h4>Copyright: <span>&copy;</span> 2021 ; All Rights Reserved!</h4>
