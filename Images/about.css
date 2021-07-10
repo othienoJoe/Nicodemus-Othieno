@@ -132,36 +132,80 @@ footer {
 	justify-content: space-evenly;
 	background-color: aqua;
 }
-.social {
-	margin-top: 1.5em;
+.media {
+	font-size: 1.5em;
 }
-.social a {
+.facebook a {
         color: rgb(33, 19, 241);
-	font-size: 1.5em;
 }
-.social2 a img {
+.twitter a img {
 	margin-top: 5px;
 	border-radius: 10em;
 }
-.social2 a {
+.twitter a {
 	color: rgb(33, 19, 241);
-	font-size: 1.5em;
 }
-.social3 img {
+.email img {
 	margin-top: 5px;
 	border-radius: 10em;
 }
-.social3 a {
+.email a {
 	color: rgb(33, 19, 241);
-	font-size: 1.5em;
 }
-.social4 a {
+.github a {
 	color: rgb(33, 19, 241);
-	font-size: 1.5em;
 }
-.social4 img {
+.github img {
 	margin-top: 5px;
 	border-radius: 10em;
+}
+/*=================================================*/
+.sub-header {
+	font-size: 1.5em;
+}
+.call {
+	display: flex;
+	justify-content: space-around;
+}
+.call img {
+	margin-top: 10px;
+	border-radius: 40%;
+}
+.call button {
+	margin-left: 2em;
+	background-color: rgba(128, 128, 128, 0.733);
+	margin-top: 10%;
+	font-size: 1.5em;
+	border-radius: 2em;
+}
+.text {
+	display: flex;
+	justify-content: space-between;
+}
+.text img {
+	margin-top: 10px;
+	border-radius: 40%;
+}
+.text button {
+	background-color: rgba(128, 128, 128, 0.733);
+	margin-top: 10%;
+	border-radius: 2em;
+	font-size: 1.5em;
+}
+.whatsapp {
+	display: flex;
+	justify-content: space-around;
+}
+.whatsapp img {
+	margin-top: 10px;
+	border-radius: 40%;
+}
+.whatsapp button {
+	background-color: rgba(104, 91, 91, 0.007);
+	color: red;
+	border-radius: 2em;
+	margin-top: 10%;
+	font-size: 1.5em;
 }
 /*=================================================*/
 .copyright {
