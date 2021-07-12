@@ -5,9 +5,12 @@ header {
 	height: 15em;
 	overflow: scroll;
 }
-header .about {
+header .about:hover {
+	color: blue;
+	padding: 16px 32px;
         padding-top: 5em;
 	justify-content: 3em space-between;
+	transition-duration: 0.4s;
 	margin-left: 2em;
 }
 header .name {
