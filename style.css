@@ -24,6 +24,12 @@ header .name h1 {
 	font-style: oblique;
 	font-size: 3em;
 }
+header .name h3 {
+	color: blue;
+	margin-left: 4em;
+	font-size: 30px;
+	font-weight: 800;
+}
 header .img img {
 	margin-right: 1em;
 	margin-top: 5px;
